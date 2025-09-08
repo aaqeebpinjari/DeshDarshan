@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayurveda – Innovations of India</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fdfdfd;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(90deg, #1e2a38, #3a6073);
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    h1 {
+      font-size: 1.5rem;
+      margin: 0;
+    }
+
+    /* Hero */
+    .hero {
+      text-align: center;
+      padding: 3rem 1.5rem;
+      background: linear-gradient(to right, #6b8e23, #3a6073);
+      color: white;
+    }
+    .hero h2 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    /* Content Container */
+    .container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 20px;
+    }
+    h3 {
+      margin-top: 2rem;
+      color: #3A6073;
+    }
+
+    /* Image */
+    .img-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+    }
+    .img-container img {
+      width: 600px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    /* Fact Grid */
+    .fact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin: 1rem 0;
+    }
+    .fact-box {
+      background: #fff;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    /* Timeline */
+    ul.timeline {
+      list-style: none;
+      padding-left: 0;
+      margin-top: 1rem;
+    }
+    ul.timeline li {
+      background: #fff;
+      margin: 0.8rem 0;
+      padding: 0.8rem 1rem;
+      border-left: 4px solid #3a6073;
+      border-radius: 6px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    /* Quiz */
+    .quiz-box {
+      background: #f1f8ff;
+      padding: 1.2rem;
+      border-radius: 10px;
+      margin-top: 2rem;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .quiz-box strong { color: #3a6073; }
+    .quiz-box button {
+      margin-top: 0.8rem;
+      padding: 8px 14px;
+      border: none;
+      border-radius: 6px;
+      background: #3a6073;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .quiz-box button:hover {
+      background: #274257;
+    }
+
+    /* Back Buttons */
+    .top-btn {
+      position: fixed;
+      right: 20px;
+      bottom: 30px;
+      background: #f39c12;
+      color: black;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+      z-index: 1000;
+    }
+    .top-btn:hover {
+      transform: scale(1.08);
+      background: #ffd700;
+    }
+    .back-btn {
+      position: fixed;
+      left: 20px;
+      bottom: 30px;
+      background: #f39c12;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      cursor: pointer;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+      transition: all 0.3s ease;
+      z-index: 1000;
+    }
+    .back-btn:hover {
+      transform: scale(1.08);
+      background: #f1c40f;
+    }
+
+    /* Footer */
+    footer {
+      background: #1e2a38;
+      color: white;
+      text-align: center;
+      padding: 1.2rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>🇮🇳 Innovations of India</h1>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h2>Ayurveda</h2>
+    <p>An ancient Indian system of medicine and holistic healing that emphasizes balance between mind, body, and spirit, still guiding wellness worldwide.</p>
+  </section>
+
+  <!-- Image -->
+  <div class="img-container">
+    <img src="./img/ayurveda.png" alt="Ayurveda Illustration">
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h3>📖 Origin & Significance</h3>
+    <p>Ayurveda, meaning "Science of Life," originated in India over 3,000 years ago. Documented in the <i>Charaka Samhita</i> and <i>Sushruta Samhita</i>, it introduced principles of diet, herbal medicine, detoxification, yoga, and surgery. Its philosophy focuses on balancing the three <i>doshas</i> — Vata, Pitta, and Kapha — for complete well-being.</p>
+
+    <h3>💡 Did You Know?</h3>
+    <div class="fact-grid">
+      <div class="fact-box">🌿 Ayurveda is one of the <b>world’s oldest medical systems</b> still practiced today.</div>
+      <div class="fact-box">👨‍⚕️ Sushruta is considered the <b>Father of Surgery</b>, describing over 300 procedures.</div>
+      <div class="fact-box">🍵 Ayurveda prescribes <b>personalized diets</b> based on body type and doshas.</div>
+      <div class="fact-box">🧘 Yoga and meditation are integral parts of Ayurvedic healing.</div>
+    </div>
+
+    <h3>📜 Historical Timeline</h3>
+    <ul class="timeline">
+      <li><b>1500 BCE</b> – Vedic texts mention early concepts of healing and herbal remedies.</li>
+      <li><b>600 BCE</b> – Sushruta writes <i>Sushruta Samhita</i>, detailing surgery and anatomy.</li>
+      <li><b>200 CE</b> – Charaka compiles <i>Charaka Samhita</i>, systematizing internal medicine.</li>
+      <li><b>20th century</b> – Ayurveda regains global popularity as alternative medicine.</li>
+    </ul>
+
+    <!-- Quiz -->
+    <div class="quiz-box">
+      <p><strong>🎯 Quick Quiz:</strong><br>
+        Who is regarded as the Father of Surgery in Ayurveda?</p>
+      <form id="quiz-form">
+        <label><input type="radio" name="answer" value="Charaka"> Charaka</label><br>
+        <label><input type="radio" name="answer" value="Sushruta"> Sushruta</label><br>
+        <label><input type="radio" name="answer" value="Patanjali"> Patanjali</label><br><br>
+        <button type="button" onclick="checkAnswer()">Submit</button>
+      </form>
+      <p id="quiz-result" style="font-weight:bold; margin-top:10px;"></p>
+    </div>
+  </div>
+
+  <!-- Back to Top -->
+  <button class="top-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">⬆ Top</button>
+
+  <!-- Back to Previous -->
+  <button class="back-btn" onclick="history.back()">⬅ Back</button>
+
+  <!-- Footer -->
+  <footer>
+    🌟 Desh Darshan – Celebrating India's Innovations
+  </footer>
+
+  <!-- Quiz Script -->
+  <script>
+    function checkAnswer() {
+      const selected = document.querySelector('input[name="answer"]:checked');
+      const result = document.getElementById("quiz-result");
+
+      if (!selected) {
+        result.textContent = "⚠️ Please select an option!";
+        result.style.color = "red";
+        return;
+      }
+
+      if (selected.value === "Sushruta") {
+        result.textContent = "✅ Correct! Sushruta is regarded as the Father of Surgery.";
+        result.style.color = "green";
+      } else {
+        result.textContent = "❌ Oops! The correct answer is Sushruta.";
+        result.style.color = "red";
+      }
+    }
+  </script>
+</body>
+</html>
